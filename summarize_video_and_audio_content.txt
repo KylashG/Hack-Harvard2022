@@ -1,0 +1,5 @@
+curl --request POST \                                      
+  --url https://api.assemblyai.com/v2/transcript \
+  --header 'authorization: OUR_API_KEY’ \
+  --header 'content-type: application/json' \
+  --data '{"audio_url": "LINK_FOR_AUDIO_OR_VIDEO", "auto_chapters": true}'
